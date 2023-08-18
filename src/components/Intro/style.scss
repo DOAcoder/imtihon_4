@@ -1,0 +1,46 @@
+.top_side {
+  .corusel {
+    background-image: url("../../Assets/images/intro/flower1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    .title {
+      font-family: RobotoMedium;
+    }
+    .btn {
+      &:hover {
+        background-color: green !important;
+      }
+      &:focus {
+        background-color: red !important;
+      }
+    }
+  }
+}
+.bottom_side {
+  .left_side {
+    background-image: url("../../Assets/images/intro/flower2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .title {
+      font-family: RobotoMedium;
+    }
+    // .btn1{
+    //   &:hover{
+    //    border: 2px solid black !important;
+    //   }
+    // }
+  }
+  .right_side {
+    background-image: url("../../Assets/images/intro/flower3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .title {
+      font-family: RobotoMedium;
+    }
+
+  }
+}

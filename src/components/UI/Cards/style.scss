@@ -1,0 +1,16 @@
+.arrow{
+  visibility: hidden;
+}
+// .cart_search{
+//    visibility: hidden;
+
+// }
+.box{
+ transition: all 2s ease-in-out;
+&:hover .arrow{
+ visibility: visible;
+}
+
+
+
+}

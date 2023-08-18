@@ -1,0 +1,14 @@
+#products {
+  .list {
+    position: relative;
+    &::before {
+      content: "";
+      display: block;
+      width: 100%;
+      height: 1px;
+      background: #e6e6eb;
+      position: absolute;
+      top: -40px;
+    }
+  }
+}
